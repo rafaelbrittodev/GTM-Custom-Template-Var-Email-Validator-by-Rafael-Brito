@@ -2,5 +2,5 @@ homepage: "https://www.rafaelbrittodev.com.br/"
 documentation: "https://www.rafaelbrittodev.com.br/google-tag-manager/custom-var-email-validator-by-rafael-brito"
 versions:
   # Latest version
-  - sha: fdd92ef7a3492e3710473e0e0eed1c39e5f71bb3aa2c6290c2635aa9cbd8a9f4
+  - sha: ce142e4c756bf651f4b96de5a604718f2f2e1bcf
     changeNotes: Initial release.
