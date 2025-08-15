@@ -1,0 +1,1 @@
+# GTM-Custom-Template-Var-Email-Validator-by-Rafael-Brito
