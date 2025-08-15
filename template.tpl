@@ -14,6 +14,7 @@ ___INFO___
   "version": 1,
   "securityGroups": [],
   "displayName": "Email Validator by Metricaz",
+  "categories": ["LEAD_GENERATION", "UTILITY", "SALES"],
   "description": "Variável booleana para verificar se o email é válido.",
   "containerContexts": [
     "WEB"
