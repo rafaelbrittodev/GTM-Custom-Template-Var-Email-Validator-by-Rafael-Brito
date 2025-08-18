@@ -13,7 +13,7 @@ ___INFO___
   "id": "cvt_temp_public_id",
   "version": 1,
   "securityGroups": [],
-  "displayName": "Email Validator by Metricaz",
+  "displayName": "Email Validator by Rafael Brito",
   "description": "Variável booleana para verificar se o email é válido.",
   "containerContexts": [
     "WEB"
@@ -87,6 +87,6 @@ scenarios:
 
 ___NOTES___
 
-Created on 18/08/2025, 16:12:15
+Created on 18/08/2025, 16:13:41
 
 
