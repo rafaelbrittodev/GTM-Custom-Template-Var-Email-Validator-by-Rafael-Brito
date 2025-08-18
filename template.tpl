@@ -14,7 +14,6 @@ ___INFO___
   "version": 1,
   "securityGroups": [],
   "displayName": "Email Validator by Metricaz",
-  "categories": ["LEAD_GENERATION", "UTILITY", "SALES"],
   "description": "Variável booleana para verificar se o email é válido.",
   "containerContexts": [
     "WEB"
@@ -49,7 +48,7 @@ if (
   trimmed.length > 5 &&
   trimmed.indexOf(' ') === -1 &&
   trimmed.indexOf('@') > 0 &&
-  trimmed.indexOf('.') > trimmed.indexOf('@') + 1 &&
+  trimmed.lastIndexOf('.') > trimmed.indexOf('@') + 1 &&
   trimmed.indexOf('@') === trimmed.lastIndexOf('@')
 ) {
   return true;
@@ -64,7 +63,7 @@ scenarios:
   code: |2-
       // Mocked field values
     const mockData = {
-      emailVariable: "not-email"
+      emailVariable: "gustavo.melo@"
     };
 
     // Call runCode to run the template's code.
@@ -76,7 +75,7 @@ scenarios:
   code: |2-
       // Mocked field values
     const mockData = {
-      emailVariable: "teste@metricaz.com"
+      emailVariable: "gustavo.melo@metricaz.com"
     };
 
     // Call runCode to run the template's code.
@@ -88,6 +87,6 @@ scenarios:
 
 ___NOTES___
 
-Created on 15/08/2025, 17:23:30
+Created on 18/08/2025, 16:12:15
 
 
