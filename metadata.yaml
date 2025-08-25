@@ -3,8 +3,5 @@ documentation: "https://www.rafaelbrittodev.com.br/google-tag-manager/custom-var
 versions:
   # Latest version
   - sha: f6edf928fa74f1e2d8e848221a5c71f426793164
-    changeNotes: |3
-      Adjusting logic in the code.
-  # Older versions
-  - sha: a58704b22c8b5c9ad5cae80273c4a012af88079a
     changeNotes: Initial release.
+  # Older versions
