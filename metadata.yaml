@@ -4,5 +4,5 @@ versions:
     changeNotes: |3
       Adjusting logic in the code.
   # Older versions
-  - sha: fdd92ef7a3492e3710473e0e0eed1c39e5f71bb3aa2c6290c2635aa9cbd8a9f4
+  - sha: a58704b22c8b5c9ad5cae80273c4a012af88079a
     changeNotes: Initial release.
